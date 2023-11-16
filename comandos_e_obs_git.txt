@@ -1,0 +1,42 @@
+"pwd" - print working directory
+"ls" - list
+"cd" - change directory
+"mkdir" - make directory
+"touch" - cria arquivo
+"git init" - inicia repositorio git
+"git status" - status do repositorio git
+"git add" - adiciona arquivos ao repositorio git
+"git commit -m" - faz commit com mensagem
+"git log" - ações previamentes feitas | "git log -p" - Mais completo
+"git branch -m "nome anterior" "nome posterior" "
+"git branch -m master main "
+"git push -u "origem" "main" "
+"git config --global user.email matheus.vms11@gmail.com "
+"git config --global user.name matheusmaximo"
+"git branch "nome da feature" "
+"git checkout "para onde ir" "
+" git remote set-url origin https://github.com/Matheus-Vinicius/projeto-django.git "
+
+////
+
+-u upload
+
+Matheus@DESKTOP-TN80910 MINGW64 ~/documents/programas/ufu/cursos/git_2023 (master)
+$ git commit -m "primeiro_commit"
+[master (root-commit) e3c03ee] primeiro_commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 template.html
+
+e3c03ee - Chamado de hash
+
+cd documents/programas/ufu/cursos/git_2023_resolucao // entar na pasta do git	
+
+180,630,077,292,169,281,088,848,499,041
+
+180,630,077,292,169,281,088,848,499,041
+
+O merge é uma opção segura que preserva o histórico inteiro do repositório, enquanto o rebase cria um histórico linear movendo a ramificação de recursos para a ponta da ramificação main.
+
+Rebase comprime todas as alterações em um único "patch". Em seguida, ele integra o patch na branch de destino. Diferente do merge, o rebase "achata" o histórico, pois transfere o trabalho completo de uma branch para outra.
+
